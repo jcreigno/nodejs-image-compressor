@@ -1,0 +1,22 @@
+{
+    "name": "image-compressor",
+    "description": "reduce image size by removing unused profile or rescaling.",
+    "keywords" : ["image", "resize", "graphicsmagic", "GraphicsMagick", "ImageMagick"],
+    "version": "0.0.1",
+    "author": {
+        "name" : "jerome creignou",
+        "url" : "https://github.com/jcreigno/nodejs-image-compressor"
+    },
+    "repository" : {
+        "type" : "git", 
+        "url" : "git://github.com/jcreigno/nodejs-image-compressor.git"
+    },
+    "dependencies": {
+        "formidable": "~1.0",
+        "gm": "~1.5"
+    },
+    "main": "./index.js",
+    "engines": {
+        "node": ">=0.8.0"
+    }
+}
